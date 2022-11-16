@@ -9,6 +9,7 @@ body  {
 nav ul li a {
   color: rgb(255, 255, 255);
   font-size: 20px;
+  text-decoration: none;
 }
 nav ul {
   padding: 0;
@@ -16,6 +17,7 @@ nav ul {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  
 }
 nav ul li {
   padding-top: 25px;
@@ -26,7 +28,35 @@ nav ul li {
 }
 nav {
   background-color: rgb(55, 0, 255);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  
 }
 nav ul li:hover {
   background-color: tomato;
+}
+header {
+  background-image: url(./39f2bade-723c57083305190737254934fe2a4064.jpeg);
+  height: 100vh;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+header h1 {
+  margin: 0;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+section {
+  padding: 50px;
+  background-color: aquamarine;
 }
