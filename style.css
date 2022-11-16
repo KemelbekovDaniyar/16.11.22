@@ -1,25 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 * {
   box-sizing: border-box;
+  font-family:  'Sono', sans-serif;
 }
-body, html {
+body  {
   margin: 0;
 } 
 nav ul li a {
-  color: black;
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding-left: 25px;
-  display: inline-block;
-  padding-right: 25px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 }
 nav ul {
-  background-color: rgb(37, 222, 255);
+  padding: 0;
+  margin: 0;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 nav ul li {
-  display: inline;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+nav {
+  background-color: rgb(55, 0, 255);
+}
+nav ul li:hover {
+  background-color: tomato;
 }
