@@ -27,7 +27,7 @@ nav ul li {
   list-style-type: none;
 }
 nav {
-  background-color: rgb(55, 0, 255);
+  background-color: rgb(255, 0, 0);
   position: sticky;
   top: 0;
   left: 0;
@@ -35,12 +35,12 @@ nav {
   
 }
 nav ul li:hover {
-  background-color: tomato;
+  background-color: rgb(0, 168, 247);
 }
 header {
-  background-image: url(./1w.jpeg);
+  background-image: url(./3у.webp);
   height: 100vh;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   background-size: cover;
   display: flex;
@@ -50,13 +50,12 @@ header {
 }
 header h1 {
   margin: 0;
+  font-size: 50px;
 }
-div {
-  width: 100px;
-  height: 100px;
-  background-color: black;
+h6 {
+  font-size: 30px;
+  text-align: center;
 }
-section {
-  padding: 50px;
-  background-color: aquamarine;
+.q1 img {
+  padding-left: 530px;
 }
